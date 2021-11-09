@@ -1,0 +1,103 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    padding: .2em .3em;
+    border-radius: .25em;
+    font-family: sans-serif;
+}
+
+.btn * {
+    text-decoration: none;
+    border-style: none;
+}
+
+.warn {
+    background-color: red;
+    color: white;
+}
+
+.warn:hover {
+    background-color: rgb(185, 0, 0);
+}
+
+.good {
+    background-color: rgb(0, 190, 0);
+    color: white;
+}
+
+.good:hover {
+    background-color: rgb(0, 136, 0);
+}
+
+form > * {
+    margin-bottom: 1em;
+}
+
+.form-input-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 20em;
+}
+
+.form-link * {
+    margin: 0;
+    color: inherit;
+    background-color: inherit;
+    border-style: none;
+}
+
+.form-link:hover {
+    transform: translate(1px, -1px);
+}
+
+.post-title-input input {
+    font-size: 1.2em;
+    width: 30em;
+    height: 2em;
+}
+
+.create-post-body {
+    width: 40em;
+    height: 20em;
+    font-size: 1.2em;
+}
+
+
+/* Post styles */
+.blog-posts-list {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.post {
+    max-width: 30em;
+}
+
+.post-header {
+    border: 1px solid grey;
+    background-color: rgb(128, 128, 128);
+    color: black;
+    padding-left: .5em;
+    display: flex;
+    align-items: center;
+}
+
+.post-body {
+    padding: 2em;
+    border: 1px solid white;
+}
+
+.post-header-item {
+    margin-right: 1em;
+    border-left: 2px solid rgb(77, 77, 77);
+    padding-left: .2em;
+}
